@@ -1,0 +1,56 @@
+/*CSS Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	height: 200vh;
+}
+
+#logo {
+	height: 70px;
+	width: 250px;
+}
+
+#div1 {
+    background-image: url("https://images.pexels.com/photos/196658/pexels-photo-196658.jpeg?cs=srgb&dl=pexels-picjumbocom-196658.jpg&fm=jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.nav-link {
+	color: white;
+}
+
+.navbar-nav {
+	font-family: 'Lato', sans-serif;
+	font-family: 'Lora', serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+.imgMe {
+	width: 250px;
+}
+
+.AboutMe {
+	background-color: gray;
+	background-position: center;
+	opacity: 0.9;
+}
+
+#self {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Lora', serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
