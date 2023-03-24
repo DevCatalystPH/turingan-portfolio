@@ -1,14 +1,3 @@
-/*CSS Reset*/
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-html{
-	height: 200vh;
-}
-
 #logo {
 	height: 70px;
 	width: 250px;
@@ -18,13 +7,19 @@ html{
     background-image: url("https://images.pexels.com/photos/196658/pexels-photo-196658.jpeg?cs=srgb&dl=pexels-picjumbocom-196658.jpg&fm=jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 1000px;
+}
+
+nav {
+	background-color: black;
+	opacity: 0.8;
 }
 
 
 .nav-link {
 	color: white;
 }
+
 
 .navbar-nav {
 	font-family: 'Lato', sans-serif;
@@ -35,7 +30,7 @@ html{
 }
 
 .imgMe {
-	width: 250px;
+	width: 350px;
 }
 
 .AboutMe {
@@ -44,8 +39,21 @@ html{
 	opacity: 0.9;
 }
 
+.AboutMe2 {
+	background-color: black;
+	background-position: center;
+	margin-top: 10rem;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Lora', serif;
+	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+
 #self {
-	margin-top: 5rem;
+	margin-top: 10rem;
 	margin-bottom: 5rem;
 	font-family: 'Lato', sans-serif;
 	font-family: 'Libre Baskerville', serif;
@@ -53,4 +61,57 @@ html{
 	font-family: 'Open Sans', sans-serif;
 	font-family: 'Roboto', sans-serif;
 	font-family: 'Roboto Slab', serif;
+}
+
+.abtm-p{
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+.car {
+	background-position: center;
+	background-size: cover;
+	height: 40vh;
+}
+
+.card-img-top {
+	height: 50%;
+}
+
+#projects, #tools, #contact {
+	font-family: 'Lato', sans-serif;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Lora', serif;
+	font-family: 'Merriweather', serif;
+	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+.fep {
+	height: 150px;
+	width: 200px;
+}
+
+.fep1 {
+	height: 120px;
+	width: 150px;
+}
+
+#contact {
+	background-color: black;
+}
+
+#contact {
+	background-image: url("https://www.adobe.com/content/dam/cc/us/en/creativecloud/design/discover/is-black-a-color/desktop/is-black-a-color_P5_720x350.jpg.img.jpg");
+	background-position: center;
+	background-size: cover;
+	opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  #self img {
+    display: none;
+  }
 }
